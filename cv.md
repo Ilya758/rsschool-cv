@@ -85,3 +85,20 @@ My global priorities is:
 </table>
 
 <br>
+
+**CODE EXAMPLE**
+```javascript
+const maxRedigit = function (num) {
+    return (num <= 0 || (String(num).length % 2) == 0) ? null : +String(num)
+      .split('')
+      .sort((a, b) => b - a)
+      .join('');
+};
+``` 
+<br>
+
+**CONTACT INFORMATION:** 
+* Phone number: 8029 57-56-2-57,
+* Email: subscriber6436@gmail.com,
+* GitHub: https://github.com/Ilya758
+
