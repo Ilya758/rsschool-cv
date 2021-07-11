@@ -47,3 +47,41 @@ My global priorities is:
   * Autocad (4 / 5),   
     
 <br>
+
+
+**SOFT SKILLS**
+* perfectionism,
+* discipline,
+* high rate of sociability and responsibility
+
+<br>
+ 
+**ENGLISH LANGUAGE SKILLS:** self studying
+<table>
+  <thead>
+    <tr>
+      <th>**General**</th>
+      <th>A2/A2+</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Reading</td> 
+      <td>B1</td> 
+    </tr>
+    <tr>
+      <td>Writing</td> 
+      <td>A2/B1</td> 
+    </tr>
+    <tr>
+      <td>Listening</td> 
+      <td>A2/B1</td> 
+    </tr>
+    <tr>
+      <td>Speaking</td> 
+      <td>A1/A2</td> 
+    </tr>
+</tbody>
+</table>
+
+<br>
