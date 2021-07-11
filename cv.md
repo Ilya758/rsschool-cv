@@ -21,3 +21,29 @@ I started learning this direction since 2021 (self studying) using this material
 * [learn.javascript.ru](https://learn.javascript.ru),
 * doing tests at [codewars.com](https://codewars.com/users/Ilya758), [ru.code-basics.com](https://ru.code-basics.com),
 * [gb.ru](https://gb.ru) etc.
+
+My global priorities is: 
+- [ ] become at least FullStack JS Developer, by using most of all modern technologies / tools and frameworks, which help to develop desktop and mobile web interfaces and applications (by client and server-side),
+- [ ] expand my technical English speaking skills, 
+- [ ] work in companies that have talented, active, motivated employees,
+- [ ] solve complex and non-standard tasks.
+
+<br>
+
+**HARD SKILLS**
+* Web devemopment:
+  * HTML (3 / 5), 
+  * CSS/SCSS (3 / 5), 
+  * JavaScript (2 / 5),
+  * VSCode (2 / 5),
+  * Bootstrap (1 / 5),
+  * jQuery (1 / 5)
+* Tools and programs:
+  * Git (2 / 5),
+  * ChromeDevTools (2 / 5),
+  * Photoshop (1 / 5),
+  * Figma (1 / 5),
+* Other: 
+  * Autocad (4 / 5),   
+    
+<br>
