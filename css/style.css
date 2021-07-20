@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto-Regular"),
+        url(../fonts/Roboto-Regular.ttf), format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 1440px;
+    /*height: 1000px;*/
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header, .footer, .footer-inner__copyright, .footer-inner__contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.text {
+    font-family: Roboto;
+    font-size: 48px;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 40px;
+    list-style-type: none;
+}
+.item {
+    margin: 0;
+}
+.link {
+    text-decoration: none;
+    color: rgba(0, 47, 255, 0.623);
+    transition: 0.35s ease-in-out;
+}
+.link:hover {
+    color: red;
+}
+.item:first-child {
+    margin-top: 40px;
+}
+.header-inner, .footer-inner {
+    width: 100%;
+    background-color: #a0beff30;
+}
+.header-inner__content, .footer-inner__content {
+    display: flex;
+    margin: 40px 0;
+}
+.header-inner__heading {
+    margin: 0;
+    font-size: 60px;
+}
+.header-inner__logo {
+    margin: 0;
+    flex: 1;
+}
+.header-inner__pic {
+    width: 60%;
+}
+.header-inner__info {
+    flex: 1;
+}
+.text_e_heading {
+    margin: 60px 0;
+    font-size: 56px;
+}
+.contact-info__content {
+    margin-bottom: 50px;
+}
+.general-priorities__item, .general-hardskills__webitem, .general-hardskills__toolitem, 
+.general-hardskills__otheritem, .general-softskills__item, 
+.general-info__item, .contact-info__item {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.dots:before {
+    display: flex;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(202, 202, 202, 0.562);
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+.item_margin_none {
+    margin-top: 0 !important;
+}
+.border {
+    border: 1px solid black;
+}
+.logo_elem_footer {
+    width: 100%;
+    opacity: 0.4;
+    transition: 0.5s linear;
+}
+.logo_elem_footer:hover {
+    opacity: 1;
+}
+.footer-inner__logo {
+    margin: 0;
+}
