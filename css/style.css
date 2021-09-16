@@ -24,7 +24,7 @@
     flex-direction: column;
 }
 .text {
-    font-family: Roboto;
+    font-family: Montserrat, sans-serif;
     font-size: 48px;
 }
 .list {
