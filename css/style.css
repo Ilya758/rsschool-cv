@@ -408,20 +408,32 @@ html {
   background-image: url(../img/icons/icon_css3.svg);
 }
 
+.icon_sass {
+  background-image: url(../img/icons/icon_sass.svg);
+}
+
 .icon_js {
   background-image: url(../img/icons/icon_js.svg);
+}
+
+.icon_react {
+  background-image: url(../img/icons/icon_react.svg);
+}
+
+.icon_phaser {
+  background: url(../img/icons/icon_phaser.svg) 0 0 / contain no-repeat;
 }
 
 .icon_devtool {
   background-image: url(../img/icons/icon_devtool.svg);
 }
 
-.icon_bootstrap {
-  background-image: url(../img/icons/icon_bootstrap.svg);
+.icon_ts {
+  background-image: url(../img/icons/icon_ts.svg);
 }
 
-.icon_jquery {
-  background-image: url(../img/icons/icon_jquery.svg);
+.icon_webpack {
+  background-image: url(../img/icons/icon_webpack.svg);
 }
 
 .icon_bem {
