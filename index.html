@@ -586,6 +586,95 @@
                         </div>
                       </a>
                     </li>
+                    <li class="item general-portfolio__item">
+                      <a
+                        target="_blank"
+                        href="https://xenodochial-payne-390d80.netlify.app/"
+                        class="link text general-portfolio__link"
+                      >
+                        <img
+                          class="general-portfolio__pic"
+                          src="img/react-recipe.png"
+                          alt="<React-Recipes>"
+                        />
+                        <div class="general-portfolio__info">
+                          <h3
+                            class="text text_e_heading general-portfolio__heading"
+                          >
+                            React-Recipes
+                          </h3>
+                          <p class="text general-portfolio__text">
+                            <b>USED TECHNOLOGIES</b>:
+                            <br />
+                            <br />
+                            <b>Web-development</b>: <br />
+                            React;
+                            <br />
+                            Typescript;
+                            <br />
+                            Styled Components
+                            <br />
+                            Materialize.css
+                            <br />
+                            <b>Tools</b>:
+                            <br />
+                            ChromeDevTools;
+                            <br />
+                            Git;
+                            <br />
+                            Webpack;
+                          </p>
+                          <p class="text general-portfolio__text">
+                            This's a react-router food recipe-project
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="item general-portfolio__item">
+                      <a
+                        target="_blank"
+                        href="https://https://clone-zero.netlify.app/"
+                        class="link text general-portfolio__link"
+                      >
+                        <img
+                          class="general-portfolio__pic"
+                          src="img/clone-zero.png"
+                          alt="<Clone-Zero>"
+                        />
+                        <div class="general-portfolio__info">
+                          <h3
+                            class="text text_e_heading general-portfolio__heading"
+                          >
+                            Clone-Zero
+                          </h3>
+                          <p class="text general-portfolio__text">
+                            <b>USED TECHNOLOGIES</b>:
+                            <br />
+                            <br />
+                            <b>Frontend</b>: <br />
+                            React & Typescript;
+                            <br />
+                            Redux;
+                            <br />
+                            Styled Components
+                            <br />
+                            Phaser 3
+                            <br />
+                            <b>Backend</b>:
+                            <br />
+                            TypeORM;
+                            <br />
+                            Express;
+                            <br />
+                            MongoDB;
+                          </p>
+                          <p class="text general-portfolio__text">
+                            Single/multiplayer final project, completed in the
+                            RSSchool
+                          </p>
+                        </div>
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -600,13 +689,13 @@
                     <thead>
                       <tr>
                         <th class="text border">**General**</th>
-                        <th class="text border">A2/A2+</th>
+                        <th class="text border">A2+/B1</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <td class="text border">Reading</td>
-                        <td class="text border">B1</td>
+                        <td class="text border">B2</td>
                       </tr>
                       <tr>
                         <td class="text border">Writing</td>
@@ -643,13 +732,15 @@
                   </h3>
                   <pre class="text code-example__text">
                                     <code class="javascript">
-function yack(fn, ...args) {
-    if (args.length >= fn.length) {
-        return fn(...args);
-    }
-    return function (...x) {
-        return yack(fn, ...args);
-    }
+const multiFilter = () =>  {
+  return arg => {
+    return [...arguments].reduce((acc, fn) => {
+      return fn(arg) ? acc += 1 : acc;
+    }, 0) === arguments.length 
+    ? arg
+    : false;
+  };
+}
     </code>
                                 </pre>
                 </div>
@@ -707,7 +798,7 @@ function yack(fn, ...args) {
                   </a>
                 </div>
                 <div class="footer-inner__copyright">
-                  <span class="text">&copy; 2021 All rights reserved</span>
+                  <span class="text">&copy; 2022 All rights reserved</span>
                 </div>
                 <div class="item footer-inner__contact">
                   <a
